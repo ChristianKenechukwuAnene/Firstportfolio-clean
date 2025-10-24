@@ -1,6 +1,6 @@
 //import React from 'react';
 import { Link } from "react-router-dom";
-import smart_video from'../assets/smart_video.mp4';
+//import smart_video from'../assets/smart_video.mp4';
 import './SmartPage.css';
 
 
@@ -25,7 +25,7 @@ return (
         <div className="media-wrap">  
           {/*video file path or poster */}
           <video className="smart-video" controls poster="/poster.mp4">
-          <source src={smart_video} type="video/mp4" />
+          <video src="/smart_video.mp4" controls autoPlay muted loop />
             Your browser does not support the video tag.
           </video>
 
