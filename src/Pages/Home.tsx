@@ -7,7 +7,7 @@
 import keecee from '../assets/Keecee.png';                                    
 import chris from '../assets/Chris.png';
 import lasta from'../assets/LASTA.jpg';
-import smart_2 from'../assets/Smart_2.png';
+import smart_2 from'../assets/Smart.png';
 import puma from'../assets/Puma.png';
 import Photo from'../assets/Photo.jpg';
 import { Link } from 'react-router-dom';

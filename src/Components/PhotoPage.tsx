@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import photo1 from "../assets/photo1.jpg"; // your hero image
-import {ALL_IMAGES} from "../assets/images"; // ✅ imports all other images
+import photo1 from "../assets/photo.jpg"; // your hero image
+import {ALL_IMAGES} from "../assets/images.ts"; // ✅ imports all other images
 import "./PhotoPage.css";
 
 

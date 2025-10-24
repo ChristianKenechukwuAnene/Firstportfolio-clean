@@ -42,7 +42,7 @@ function App() {
       <div className="main-header">
         <nav className="navbar">
           <div className="logo">
-            <img src={my_profile} alt="my_profile" />
+            <img src={my_profile} alt="my_Profile" />
           </div>
           <ul className="nav-links">
             <li><Link to="/">HOME</Link></li>

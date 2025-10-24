@@ -1,4 +1,4 @@
-import keecee1 from'../assets/Keecee1.png';
+import keecee1 from'../assets/Keecee.png';
 import './About.css'; // Import the CSS file
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaPinterest, FaArtstation } from "react-icons/fa";
 

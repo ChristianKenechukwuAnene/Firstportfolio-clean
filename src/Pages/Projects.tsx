@@ -1,7 +1,7 @@
 import lasta from'../assets/Lasta.jpg';
 import smart from'../assets/Smart.png';
-import puma1 from'../assets/Puma1.png';
-import Photo1 from'../assets/Photo1.jpg';
+import puma1 from'../assets/Puma.png';
+import Photo1 from'../assets/Photo.jpg';
 import { Link } from "react-router-dom";
 import './Projects.css'; // Import the CSS file
 
