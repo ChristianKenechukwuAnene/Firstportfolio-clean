@@ -21,16 +21,17 @@ return (
       
 
 <section className="hero">
-
-        <div className="media-wrap">  
-          {/*video file path or poster */}
-          <video className="smart-video" controls poster="/poster.mp4">
-          <video src="/smart_video.mp4" controls autoPlay muted loop />
-            Your browser does not support the video tag.
-          </video>
-
-        </div>
-      </section>
+  <div className="media-wrap">  
+    <video
+      className="smart-video"
+      controls
+      poster="/poster.png"  // your poster in public folder
+      src="/smart_video.mp4" // your video in public folder
+    >
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
 
       <main className="container">
         <article className="content">

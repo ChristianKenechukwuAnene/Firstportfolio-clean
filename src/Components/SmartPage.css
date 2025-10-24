@@ -35,13 +35,13 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
 }
 
-.smart-video{
+/*.smart-video{
 display:block;
 width:100%;
 height:200%;
 object-fit:cover;
 border-radius:4px;
-}
+}*/
 
 
 .container h2{
