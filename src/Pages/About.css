@@ -1,0 +1,160 @@
+
+.contact-me {
+  width: 1200px; /*  prevents content from being too wide on big screens */
+  margin: 0 auto;
+}
+
+ /* Hero Section */
+.hero2 {
+  background-color: rgba(54, 82, 69, 0.4);
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.bio-card {
+  /* width: 900px;  */
+  margin: 50px auto; 
+  background-color: #0d140e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+}
+
+.titile {
+  height: 180px;
+  position: relative;
+}
+
+.bio-card img {
+  width: 140px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid #111;
+  position: absolute;
+  left: 35%;
+}
+
+.data {
+  padding: 100px 50px 50px;
+  text-align: center;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.role {
+  background-color: #1db954;
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.segment {
+  display: flex;
+  gap: 40px;
+  text-align: left;
+}
+
+.aboutSeg,
+.skills1 {
+  width: 50%;
+}
+
+.aboutSeg h3,
+.skills1 h3 {
+  color: #1db954;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1db954;
+  padding-bottom: 5px;
+}
+
+.tags1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tags1 span {
+  background-color: #54725f;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+
+.sidebar {
+  width: 300px;
+  background-color: #59665b;
+  color: #fff;
+  padding: 10px;
+  margin-left: 40rem;
+  text-align: center;
+  position: absolute;  
+  margin-top: -35rem;
+  border-radius: 8px;
+   
+}
+
+/* Social section */
+.skill-social {
+  text-align: center;
+  background-color: #0d140e;
+  border-radius: 8px;
+}
+
+.social-links h3 {
+  color: #1db954;
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-icon {
+  color: #ddd;
+  font-size: 28px;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  color:  #d9ff00;
+  transform: scale(1.2);
+}
+
+
+
+ 
+.cta-text {
+  max-width: 70%;
+}
+
+.cta-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color:  #d9ff00;
+}
+
+.cta-text p {
+  color: #ccc;
+  font-size: 1rem;    /* optional: make it a bit larger */
+}
+.cta-Rights h4{
+  color: rgb(152, 84, 84);
+}

@@ -1,0 +1,99 @@
+
+ 
+.my-projects {
+   width: 1200px;
+   background-color: #0d140e;
+   margin: 0 auto;
+   color: #eee;
+   background-color: #0d140e;
+  
+}
+  
+ /* Hero Section */
+.projects-header {
+  background-color: rgba(54, 82, 69, 0.4);
+  background-size: cover;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+}
+.projects-container {
+   padding: 60px 0;
+   background-color: #0d140e;
+  
+}
+
+/* Intro Section */
+.projects-intro {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 10%;
+  gap: 40px;
+}
+
+.intro-img img {
+  width: 500px; 
+  border-radius: 10px;
+}
+
+.intro-text {
+  width: 50%;
+}
+
+.intro-text h2 {
+  color: #1db954;
+  margin-bottom: 10px;
+}
+
+.intro-text p {
+  color: #ddd; 
+  line-height: 1.6; 
+}
+
+/* Services Section */
+.service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10%;
+  gap: 40px;
+}
+
+.service.reverse {
+  flex-direction: row-reverse;
+}
+
+.service-img img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.service-text {
+  width: 50%;
+}
+
+
+.service-text h2 {
+  margin-bottom: 15px;
+  color: #1db954 ;
+}
+
+.service-text p {
+  color: #ccc;
+  line-height: 1.6;
+}
+.service-text a {
+  color: #1db954;;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+
+.projects-container a:hover {
+  color: #d9ff00;
+}
+
+
+

@@ -1,0 +1,77 @@
+
+.blog1-page {
+   width:1200px ; /* prevents content from being too wide on big screens */
+   margin: 0 auto;
+   background-color: #0d140e;
+   color: #eee;
+}
+ 
+
+ /* Hero Section */
+
+ .blog1-container {
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #0d140e;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4);
+}
+
+.blog1-header {
+  text-align: left;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.blog1-header h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #ffffff;
+}
+
+.blog1-header p {
+  color: #b5b5b5;
+  font-size: 16px;
+  width: 600px;
+  margin-top: 15px;
+}
+.back{
+display:inline-block;
+margin-top:12px;
+text-decoration:none;
+color: #1db954;
+}
+.blog1-container a:hover{
+  color: #d9ff00;;
+}
+
+
+
+/* CTA Section */
+.cta {
+  background: #1a1a1a;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  max-width: 70%;
+}
+
+.cta-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #1db954;
+}
+
+.cta-text p {
+  color: #ccc;
+  font-size: 1rem;    /* optional: make it a bit larger */
+}
+.cta-Rights h4{
+  color: rgb(152, 84, 84);
+}
+

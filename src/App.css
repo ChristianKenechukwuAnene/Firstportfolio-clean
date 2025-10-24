@@ -1,0 +1,412 @@
+body {
+  margin: 0 auto;             /*   Remove default body margin */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;         /*Set dafault font family */  
+  color: #eee;                    /* Set default color */
+  background: #0d140e; 
+  width:1500px; 
+  font-size: large; 
+}
+
+
+.main-header {
+  position: sticky;
+  margin: 0;
+  top: 0;
+  background: rgba(1, 1, 1, 0.5);
+  z-index: 1000;              /* Keeps navbar above all other elements */
+}
+
+
+ /* Navbar*/
+
+.navbar {
+  width: 1200px;       
+  margin: 0 auto;             /* Center navbar contents */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 8rem;
+}
+
+
+  .logo {
+     width: 100px;
+     height: 5px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 2rem;
+  }
+
+   img{
+    width: 200px;    /* fixed size */
+    height: auto;    /* keep ratio */
+    margin: 0 auto;  /* center */
+  }
+    
+  .nav-links {
+    list-style: none;        /* Remove bullets from the nav list */ 
+    display: flex;           /* Display links in a row */
+    gap: 2rem;
+  }
+
+
+  .nav-links a{
+    text-decoration: none;   /* Removes underline from links. */
+    color: #1db954;       /* Sets link color to light green. */   
+    transition: color 0.3s;   /* Adds a smooth transition when color changes. */
+}
+
+
+   .nav-links a:hover{
+    color: #d9ff00;        /*yellow hover */
+  } 
+
+
+ /*Hero Section */
+
+ .home-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+ 
+ .hero {
+  display: flex; /*Display the content in a row */
+  align-items: center; /* centered all the content */
+  justify-content: center;
+  padding: 0 4rem;  
+  gap: 2rem;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+ 
+
+.highlight {
+  color: #1db954;
+}
+
+/* container that hides overflow while typing */
+.typewriter {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;      /*   IMPORTANT: hide the hidden text */
+  color:  #d9ff00;
+}
+
+
+
+/* the text element that will be "typed" */
+.typewriter-text {
+  font-size: 1.5rem;
+  display: inline-block;
+  box-sizing: border-box;  /* Start collapsed — animation will grow width from 0ch -> Nch */                               
+  max-width: 0;               /* start at 0 so typing is visible */
+  border-right: 3px solid rgba(255,255,255,0.12); /* caret */
+  font-family: "Courier New", Courier, monospace;
+
+  animation:
+            typing 3s steps(25, end) 0.5s forwards, /* adjust time and steps */
+             blink-caret .7s step-end infinite;
+}
+
+/* Reveal width from 0ch to 22ch (match steps) */
+@keyframes typing {
+                   from { max-width: 0; }
+                   to   { max-width: 100%;}
+} 
+
+/* caret blink */
+@keyframes blink-caret {
+  50% { border-color: transparent; }
+  0%,100% { border-color: rgba(255,255,255,0.12); }
+
+}
+
+/* responsive fallback — adjust steps & width to match smaller char count */
+/* @media (max-width: 480px) { */
+  /* .typewriter-text { */
+    /* animation: typing 3s steps(18, end) 0.5s forwards, blink-caret .7s step-end infinite; */
+  /* } */
+/* } */
+
+
+
+
+.tags {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tags span {
+  background: #222;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+  color: #1db954;
+}
+
+.chris {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.chris img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* About Section */
+.about {
+  padding: 1rem 2rem;
+  background: #222;
+  text-align: center;
+  border-radius: 8px;
+}
+.about-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.about h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-intro {
+  margin: 0 auto 3rem auto;
+  color: #ccc;
+  font-size: 1.2rem;
+}
+.intro-text a {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+  .italic-text {
+  font-style: italic;   /* makes text italic */
+  font-size: 1.5rem;    /* optional: make it a bit larger */
+  text-align: center;   /* optional: center the text */
+}
+
+.resume {
+  background: #1db954;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 2rem ;
+}
+
+.resume-btn {
+  color: #0d140e;
+  font-size: larger;
+}
+
+
+
+.resume:hover {
+  background: #d9ff00;
+}
+
+.profile-box {
+  display: flex;
+  align-items: center;
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1;
+  gap: 1.5rem;
+}
+
+ .profile-pic {
+  background: #333;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile-info {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #eee;
+}
+  .Email:span{
+   color: #d9ff00;       /* makes "Email:" red */
+   font-weight: bold; /* keeps it bold */
+}
+.skills {
+  flex: 1;
+  text-align: left;
+  background: #111;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.skills h4 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.skill {
+  margin-bottom: 1.2rem;
+  text-align: left;
+}
+
+.progress {
+  background: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+
+.progress-bar {
+  background: #1db954;
+  height: 20px;
+  text-align: right;
+  padding-right: 5px;
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+/* Projects Section */
+.main-projects {
+  padding: 2rem 2rem;  /*for the padding of thr project content */
+  background: #0e0e0e;
+  margin: 2rem;
+}
+
+.main-projects-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding-left: 3rem;
+}
+
+.main-projects-header h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  
+}
+
+.main-projects-header p {
+  color: #aaa;
+  font-size: 1.3rem;
+}
+
+.view-all {
+  background: #1db954;;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: #d9ff00 0.3s;
+  margin-right: 15rem;
+}
+
+.view-all:hover {
+  background: #d9ff00;
+}
+ 
+/* Project Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.project-card {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card img {
+  width: 100%;
+  height: 250px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.project-card a {
+  color: #1db954;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  color: #d9ff00;
+}
+
+
+/* CTA Section */
+.cta {
+  background: #1a1a1a;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text {
+  max-width: 70%;
+}
+
+.cta-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color:  #d9ff00;
+}
+
+.cta-text p {
+  color: #ccc;
+  font-size: 1rem;    /* optional: make it a bit larger */
+}
+.cta-Rights h4{
+  color: rgb(152, 84, 84);
+}
