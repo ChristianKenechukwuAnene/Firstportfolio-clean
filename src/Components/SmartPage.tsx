@@ -22,12 +22,7 @@ return (
 
 <section className="hero">
   <div className="media-wrap">  
-    <video
-      className="smart-video"
-      controls
-      poster="/poster.png"  // your poster in public folder
-      src="/smart_video.mp4" // your video in public folder
-    >
+    <video>
       Your browser does not support the video tag.
     </video>
   </div>
