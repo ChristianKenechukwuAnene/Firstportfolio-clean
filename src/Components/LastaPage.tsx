@@ -1,7 +1,7 @@
 //import React from 'react';
 import { Link } from "react-router-dom";
 import lasta from'../assets/Lasta.jpg';
-import artiviveImage from "../assets/ArtiviveImage.png";
+import artiviveImage from "../assets/Lasta.jpg";
 import './LastaPage.css';
 
 
