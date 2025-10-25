@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import photo1 from "../assets/photo.jpg"; // your hero image
 import {ALL_IMAGES} from "../assets/images.ts"; // ✅ imports all other images
@@ -29,7 +29,7 @@ import "./PhotoPage.css";
 
         <div className="photo-overlay">
           <h1 className="photo-title">PHOTOGRAPHY</h1>
-          <p className="phot-desc">
+          <p className="photo-desc">
             During my Animation undergraduate studies, I completed a dedicated photography course.
              This training honed my skills in composition, lighting, 
              and visual storytelling using DSLR cameras. It enhanced my artistic 
