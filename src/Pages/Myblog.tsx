@@ -37,18 +37,18 @@ function Myblog(){
               <Link> – uses React Router to navigate to the full article page (in this case /blog1). */}
   
           <div className="blog-content">
-            <h2>Usability Secrets to Create Better User Interfaces</h2>
+            <h2>Technical Specifications</h2>
             <p>
-            Creating better user interfaces hinges on prioritizing usability. 
-            The core secrets involve designing for simplicity and intuitiveness, 
-            ensuring users can navigate effortlessly. Implement clear visual hierarchies,
-            consistent design patterns, and provide immediate, clear feedback for user actions.
-            Streamline tasks to minimize cognitive load and reduce the number of steps to
-            completion. Always align the interface with the user's mental models by
-            using familiar icons and language. Crucially, conduct real user testing
-            to identify pain points and refine the experience. A truly successful 
-            UI feels invisible, enabling users to achieve their goals 
-            with efficiency and satisfaction, ultimately driving engagement and growth.
+            For the production of our video advertisement, 
+            we used two iPhone 16 Pro devices, which allowed us to. 
+            capture high-quality footage with improved low-light performance and cinematic stabilization. 
+            To achieve smooth movement and dynamic angles, it was difficult because we dont actually 
+            have gamble but just holding still, but we pull through and maintain
+            stability for key classroom and close-up shots.
+                
+            Editing was completed using Adobe Premiere Pro, where we handled color grading, sound mixing, and
+            transitions. Additional text effects and motion graphics were added using After Effects to enhance the final
+            visual appeal of the advertisement.
             </p>
             <a><Link to="/blog1">Read More</Link></a>
           </div>
