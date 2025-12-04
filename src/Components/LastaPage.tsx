@@ -1,7 +1,6 @@
 //import React from 'react';
 import { Link } from "react-router-dom";
-import lasta from'../assets/Lasta.jpg';
-import artiviveImage from "../assets/Lasta.jpg";
+import pash from'../assets/Pash.jpg';
 import './LastaPage.css';
 
 
@@ -11,14 +10,8 @@ return (
 <div className="lasta-page">
 
     <header className="lasta-header">
-         <h1>LASTA Young Creator Exhibition – VR/AR Project</h1>
-        <p>
-          <strong>Software Used:</strong> Artivive App, Adobe After Effects, Photoshop, 3D/Animation Tools
-          <br />
-          <strong>Venue:</strong> Siamsa Arts Center &nbsp;
-          <br />
-          <strong>Project Type:</strong> Immersive Art & VR/AR Experience
-        </p> 
+         <h1> My Passion </h1>
+       
       </header>
 
       
@@ -26,57 +19,77 @@ return (
 <section className="lasta-hero">
       <div className="lasta-img">
           <img
-            src={lasta}alt="lasta"/>
+            src={pash}alt="pash"/>
         </div>
       </section>
 
-        <div className="artivive-link-container">
-      <a
-        href="https://apps.apple.com/app/artivive/id1260281712"target="_blank" rel="noopener noreferrer">
-        <img
-          src={artiviveImage} alt="Scan with Artivive App"className="artivive-image" />
-      </a>
-      </div>
 
       <main className="container">
         <article className="content">
-          <h2>Overview</h2>
+          <h2>Photograph Description</h2>
           <p>
-            I collaborated on an innovative VR/AR project for the “LASTA Young Creator Exhibition,” 
-            an exhibition that sought to merge traditional artistic expression with
-             emerging immersive technologies. The goal of the project was to bring static
-              artistic paintings to life, transforming 2D visual art into dynamic,
-               interactive experiences that viewers could explore through the Artivive app.
+           This photograph was captured using a Samsung Galaxy S22, 
+           a device known for its sharp detail and excellent dynamic range, 
+           which allowed me to reveal the calm and reflective atmosphere of the moment. 
+           I chose a longer focal length to achieve a soft, dreamy look—subtly 
+           compressing the background while keeping the composition balanced between the subject and the surrounding landscape.
 
-            This project pushed the boundaries of creativity and technical skill, 
-            combining artistic vision with digital interactivity to create an entirely 
-            new form of engagement with visual art.
-          </p>
-
-          <h2>Concept Development</h2>
-          <p>
-            The central idea of the project was to animate static paintings and provide 
-            viewers with an immersive layer of digital content that enhances the original artwork.
-             Using AR technology:
-             <h5>Visitors could scan artworks with the Artivive app on their devices.</h5>
-             <h5>Hidden animations, subtle movements, and visual effects appeared seamlessly
-               over the original painting, creating a sense of life and motion.</h5>
-              <h5>Sound design or subtle visual cues were incorporated to enhance emotional impact and immersion.</h5>
-          </p>
-          <p>
-            The project explored the intersection of art and technology,
-             demonstrating how digital tools can enrich traditional forms of 
-             creative expression. It also aimed to make art more interactive and
-              engaging for a younger, tech-savvy audience.
+          Because the lighting was natural and gentle, I used a wide aperture to let in more light,
+          maintaining brightness without losing softness. Since the image was taken handheld,
+          I selected a fast enough shutter speed to avoid motion blur while preserving 
+          a natural flow of light. A low ISO helped keep the image smooth, clear, and noise-free, 
+          staying true to the peaceful mood of the scene.
           </p>
 
-          <h2>Impact and Experience</h2>
+          <h2>Editing Specifications</h2>
           <p>
-            The final exhibition allowed viewers to experience paintings in a completely new 
-            dimension: what was once static became interactive, immersive, and engaging.
-             Visitors could move around the space, explore each piece with their mobile devices,
-              and experience art in a dynamic way.
+            The photograph was refined in Affinity Photo, where I focused on enhancing its dreamy and serene quality:
           </p>
+           <ul style={{ lineHeight: "1.8" }}>
+        <li>
+          Increased exposure to brighten the subject and bring out the softer details in the sky and water.
+        </li>
+
+        <li>
+          Enhanced contrast to add depth and subtly separate the figure from the environment.
+        </li>
+
+        <li>
+          Boosted saturation and vibrance to highlight gentle greens, blues, and warm tones throughout the scene.
+        </li>
+
+        <li>
+          Added a soft vignette to guide the viewer’s attention toward the center of the image.
+        </li>
+        <li>
+          Applied a light Gaussian Blur / lens blur to the background to strengthen the shallow-depth-of-field effect.
+        </li>
+        <li>
+          Selectively sharpened the subject to naturally draw the eye to the moment of reflection..
+        </li>
+      </ul>
+
+
+          <h2>What the Picture Depicts</h2>
+          <p>
+            This photograph captures a calm, introspective moment in nature—an image symbolizing balance,
+             self-expression, and the quiet confidence that supports my creative journey.
+             Standing on a bridge overlooking flowing water and open skies, I am surrounded by
+              a peaceful landscape that inspires clarity, stillness, and imagination.
+          </p>
+          <p>
+          The soft yet bright lighting mirrors my personal philosophy: simplicity is powerful, 
+          and the smallest details often tell the most meaningful stories.
+           Just as I approach my drawings and designs, I aim to reflect authenticity, 
+           mood, and atmosphere in everything I create.
+           </p>
+
+           <p>
+            More than a visually pleasing image, this photograph is a reflection of who I am—calm, 
+            observant, inspired by the world around me, and committed to turning subtle moments into visual expression.
+             It represents the mindset I bring to every creative project: intentional, expressive,
+             and deeply connected to the beauty found in everyday scenes.
+           </p>
          
         </article>
       </main>

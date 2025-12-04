@@ -17,95 +17,136 @@ function Blog1Page(){
 
   
           <div className="blog1-content">
-            <h2>Usability Secrets to Create Better User Interfaces</h2>
+            <h2>Technical Specifications</h2>
             <p>
-            Creating better user interfaces hinges on prioritizing usability. 
-            The core secrets involve designing for simplicity and intuitiveness, 
-            ensuring users can navigate effortlessly. Implement clear visual hierarchies,
-            consistent design patterns, and provide immediate, clear feedback for user actions.
-            Streamline tasks to minimize cognitive load and reduce the number of steps to
-            completion. Always align the interface with the user's mental models by
-            using familiar icons and language. Crucially, conduct real user testing
-            to identify pain points and refine the experience. A truly successful 
-            UI feels invisible, enabling users to achieve their goals 
-            with efficiency and satisfaction, ultimately driving engagement and growth.
-            A great interface is not just about how beautiful it looks, but how easily people can use it.
-            Usability is the key that makes technology feel natural, simple, and enjoyable.
-            According to usability expert Jakob Nielsen, usability means that a system must
-            be easy to learn, efficient to use, and satisfying for the user. In other words, 
-            a good interface helps users achieve their goals quickly and comfortably without confusion or frustration.
-            This write-up explores the main principles and “secrets” behind designing better,
-             more usable interfaces. These ideas are based on established usability research 
-             and practical design principles used in the industry today.
+            For the production of our video advertisement, we used two iPhone 16 Pro devices, 
+            which allowed us to capture high-quality footage with improved low-light performance and cinematic stabilization.
+            To achieve smooth movement and dynamic angles, it was difficult to achive but we have to stay still with the phone
+            to be ablee to maintain stability for key classroom and close-up shots.
+
+            Editing was completed using Adobe Premiere Pro, where we handled color grading,
+            sound mixing, and transitions. Additional text effects and motion graphics were 
+            added using After Effects to enhance the final visual appeal of the advertisement.
+            
             </p>
 
-            <h2>Simplicity and Clarity</h2>
+            <h2>Reflection on My Contribution</h2>
             <p>
-            The first rule of good design is to keep things simple. 
-            A simple interface allows users to focus on what truly matters.
-             When too many buttons, icons, or choices appear on a single screen, 
-             people feel overwhelmed. This idea is supported by Hick’s Law, 
-             which states that the time it takes to make a decision increases
-             with the number of options available.Therefore, simplicity is not
-             about removing features, but about showing only what the user
-             needs at the right time. Clean layouts, familiar symbols, and 
-             short labels make navigation effortless. A clear and simple design
-              communicates confidence and professionalism.
+            This project was an exciting and meaningful learning experience.
+            Working with a team of five allowed each of us to bring something unique to the production.
+            As one of the videographers and part of the video direction team, I had the opportunity
+            to shape the visual storytelling and contribute creatively to the overall execution of the advert.
+
+            The ad focuses on a student living in a boarding school who feels tired and unmotivated
+            in class—until a cup of morning coffee transforms his entire mood and energy for the day. 
+            Capturing this transformation required teamwork, planning, and precise cinematography.
             </p>
 
-               <h2>Consistency and Familiarity</h2>
+               <h2>Videography</h2>
             <p>
-            Consistency is one of the strongest pillars of usability.
-            When everything behaves the same way, users feel in control.
-            Consistency means using the same colors, buttons, fonts, and
-            layouts throughout the interface. It also means using familiar
-            patterns that users already understand.
-            This concept is linked to Jakob’s Law, which states that users 
-            spend most of their time on other websites, so they expect your 
-            site to work like those. For instance, the “menu” icon should always
-             open navigation, and the “cart” icon should lead to checkout.
-              Familiarity reduces the learning curve and helps users feel confident
-               quickly.
+            As one of the videographers, I was responsible for capturing clear,  
+            expressive shots that effectively represented the student’s journey from 
+            fatigue to refreshment. My videography contributions included:
+
+            <ul style={{ lineHeight: "1.8" }}>
+        <li>
+          <strong>Camera Operation:</strong> I worked primarily with the iPhone
+          16 Pro, taking advantage of its advanced stabilization and natural
+          color tone to capture both static shots and smooth movement shots.
+        </li>
+
+        <li>
+          <strong>Shot Composition:</strong> I planned and framed key scenes such as
+          the low-energy classroom moments, the close-ups of the student’s
+          expressions, and the brighter, emphasized scenes after he drinks the
+          coffee.
+        </li>
+
+        <li>
+          <strong>Lighting Awareness:</strong> To reflect the storyline, I ensured
+          the shots before the coffee were slightly duller and cooler, while the
+          “after coffee” scenes were shot in brighter, warmer tones to visually
+          communicate the shift in mood.
+        </li>
+
+        <li>
+          <strong>Collaboration With Crew:</strong> I coordinated with the second
+          videographer to maintain continuity and consistency between angles.
+        </li>
+      </ul>
             </p>
 
-           <h2>Provide Feedback for Every Action</h2>
+           <h2>Video Direction</h2>
             <p>
-            Feedback is essential because it tells users that their actions have
-            been recognized. Imagine pressing a button and nothing happens this
-            creates uncertainty. Every interaction should show a clear response:
-            a sound, a change in color, an animation, or a confirmation message.
-            Nielsen’s heuristic of “visibility of system status” emphasizes that 
-            systems should always keep users informed. Even a small progress bar 
-            or a success tick can reassure users that things are working. When
-             feedback is clear and immediate, users feel comfortable and in control.
+            Alongside videography, I also contributed to directing the visual flow of the advert. This included:
+
+             <ul style={{ lineHeight: "1.8" }}>
+        <li>
+          <strong>Guiding the Actor:</strong>  I helped direct our teammate acting as the tired student, making sure his
+          expressions clearly showed the transition from exhaustion to energy.
+        </li>
+
+        <li>
+          <strong>Scene Planning</strong> I worked with the group to decide where each scene should take place 
+          especially the classroom sequences and the “morning coffee moment.”
+        </li>
+
+        <li>
+          <strong>Blocking and Movement:</strong> I planned how the actor would move within the frame, especially 
+          in the transformation scene when his mood “lights up.”
+        </li>
+
+        <li>
+          <strong>Retakes and Adjustments:</strong> When lighting or continuity issues appeared, I recommended retakes and minor 
+          adjustments to improve the overall quality.
+        </li>
+      </ul>
             </p>
 
-            <h2>Accessibility for All Users</h2>
+            <h2>Story & Concept Execution</h2>
             <p>
-            Usability is not complete without accessibility. A good design must be 
-            usable by people with different abilities. Accessibility includes using 
-            readable fonts, high-contrast colors, and clear labels. Interfaces should
-             be navigable with a keyboard and compatible with screen readers.
-             Designing for accessibility benefits everyone, not only those with 
-             disabilities. For example, captions help users in noisy places, and 
-             high-contrast text helps people on mobile screens outdoors. 
-             Accessibility is both an ethical and practical part of usability.
+            I helped brainstorm how to visually show the shift in mood from tired, 
+            unfocused, and drained to energetic, motivated, and ready for the day. 
+            This included suggesting camera angles such as:
+
+             <ul style={{ lineHeight: "1.8" }}>
+        <li>
+          Close-up shots showing sleepy eyes before the coffee and a long shot on the closing with a passer by pointing at his feet.
+        </li>
+
+        <li>
+          A slow zoom to show boredom fading and the time in the morning
+        </li>
+
+        <li>
+          A brighter, energized expression after the first sip
+        </li>
+
+        <li>
+          Dynamic classroom shots to show improved mood
+        </li>
+      </ul>
             </p>
 
-             <h2>Conclusion</h2>
+             <h2>Final Thoughtsn</h2>
             <p>
-            The secret to better user interfaces is understanding that usability is
-             the foundation of all design. By following principles such as simplicity,
-            clarity, consistency, feedback, and accessibility, designers can create
-             products that people love to use.
-            A successful UI doesn’t draw attention to itself; instead, it supports 
-            the user’s journey quietly and efficiently. As Don Norman, author of The
-           Design of Everyday Things, said, “Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so well that the design is invisible.”
-           When usability becomes your main focus, design becomes not just beautiful
-            but meaningful, helpful, and human.
+            This project was more than just a simple advertisement it was a chance to collaborate,
+            practice professional filming techniques, and tell a story through visuals. Working as
+            both a videographer and part of the direction team helped me develop stronger technical
+            skills and a better understanding of how to guide performances and create meaningful shots.
+
+            I am proud of the work our team produced. Although not every moment was perfect, our creativity,
+            problem-solving, and teamwork made the final advert a success. The contrast between tiredness and 
+            renewed energy came through clearly, and the storytelling felt engaging and relatable.
+
+          This experience has strengthened my interest in videography and visual storytelling,
+           and I look forward to applying these skills in future projects.
+
             </p>
 
-            <p>By: DON NORMAN: <a style={{ color: 'green', fontStyle: 'italic' }}>The Design of Everyday Things (2013)</a> </p>
+            <p>Final Video Link: <a style={{ color: 'green', fontStyle: 'italic' }}>www.youtube.com/watch?v=hGXjlXMoMAo&feature=youtu.be
+             
+           </a> </p>
         </div>
         <Link className="back" to="/Myblog">← Back</Link>
 

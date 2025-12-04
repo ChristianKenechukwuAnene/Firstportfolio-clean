@@ -1,6 +1,6 @@
 //import React from 'react';
 import { Link } from "react-router-dom";
-//import smart_video from'../assets/smart_video.mp4';
+import chris_1 from'../assets/Chris_1.jpg';
 import './SmartPage.css';
 
 
@@ -10,87 +10,53 @@ return (
 <div className="smart-page">
 
     <header className="smart-header">
-         <h1>3D Smart House Project Design</h1>
-        <p>
-          <strong>Software Used:</strong> Autodesk Maya, Adobe Photoshop, After Effects.
-          <br />
-          <strong>Duration:</strong> 4:00 minuts &nbsp; | &nbsp;
-          <strong>Project Type:</strong> 3D Visualization / Animation / Academic Final-Year Project
-        </p>
+         <h1>My Professional</h1>
+       
       </header>
       
 
 <section className="hero">
-  <div className="media-wrap">  
-    <video>
-      Your browser does not support the video tag.
-    </video>
-  </div>
+   <div className="media-wrap">  
+          <img src={chris_1} alt="Chris_1"/>
+
+        </div>
 </section>
 
       <main className="container">
         <article className="content">
-          <h2>Overview</h2>
+          <h2>Professional Headshot Description</h2>
           <p>
-            The 3D Automated Smart House Project was my final-year academic project,
-           aimed at exploring the concept of a fully automated, futuristic home designed
-           for the 21st century. The project focused on visualizing a technologically
-           advanced living environment where automation and convenience seamlessly
-           enhance the quality of daily life. Through this project, I sought to
-           demonstrate how modern design principles and innovative technologies 
-           can be integrated into residential spaces, creating a home that is both
-           functional and aesthetically striking
-
-           The goal was not only to produce a visually compelling 3D model but also to 
-           communicate how emerging smart home technologies can transform traditional 
-           living spaces into interactive, intuitive environments. The project presented
-            an opportunity to combine my technical proficiency in 3D modeling and 
-            animation with my creative vision for futuristic architecture and user-centric 
-            design.
+            This professional headshot reflects the mindset and values I bring to my work confidence, 
+            discipline, and a commitment to excellence. Captured in a clean, formal style,
+             the image presents a composed and thoughtful expression,
+              mirroring the way I approach problem-solving and professional growth. 
+              Wearing a tailored suit and maintaining an assured posture, 
+              I aim to communicate reliability, focus, and readiness for responsibility.
           </p>
 
-          <h2>Concept Development</h2>
+          <h2>My Professional Background</h2>
           <p>
-            At the heart of the project was the idea of a self-sufficient, intelligent home
-             capable of responding to the needs and preferences of its residents. 
-             To conceptualize the smart house, I conducted extensive research into
-             contemporary smart home systems, including automated lighting, climate 
-             control, security systems, energy-efficient technologies, and voice-activated 
-             devices.
-
-             <h4>Lighting systems:</h4>adjust automatically according to natural light levels and user activity.
-             <h4>Temperature and climate control: </h4>maintain comfort while optimizing energy consumption.
-             <h4>Voice-activated devices: </h4> allow users to control appliances, lighting, and multimedia systems effortlessly.
-
-          </p>
-          <p>
-            I also explored aesthetic design principles to ensure the house
-             felt modern and futuristic, blending cutting-edge technology 
-             with elegant architectural design.
+            My experience spans creative design, mechanical engineering, and technology 
+            a combination that shapes how I think, work, and collaborate.
+             I value structure and clarity, yet I remain open to innovation and new ideas.
+              Whether I’m analyzing a system, designing a solution, or working within a team,
+               I approach every challenge with intention, purpose, and curiosity.
           </p>
 
-          <h2>Design and 3D Modeling</h2>
+          <h2>Visual Style and Representation</h2>
           <p>
-            Using Autodesk Maya, I created a highly detailed 3D model of the house,
-             focusing on both the exterior architecture and interior spaces.
-              The modeling process included:
-          </p>
-          <p>
-           <h4>Structural Design:</h4>
-            Developed the main architectural layout including living areas, bedrooms, kitchen, and common spaces.
-            Designed clean, minimalist lines and modern materials to reflect a futuristic aesthetic. 
+            The simplicity of the backdrop keeps the focus on presence and professionalism,
+             emphasizing my belief in clear communication and a strong first impression.
+              This minimalistic setting reflects the balance I strive for in my work:
+              pairing technical understanding with creativity, and organisation with adaptability.
           </p>
           <p>
-           <h4>Interior Elements:</h4>
-          Modeled furniture, appliances, and interactive devices in precise scale to demonstrate realistic spatial planning.
-          Incorporated smart features such as touch panels, motion sensors, and automated furniture.
-          </p>
-           <p>    
-          <h4>Automation Features:</h4>
-          Animated doors, blinds, and lighting to demonstrate automated operation.
-          Simulated user interactions such as adjusting lighting intensity or activating systems via voice commands.
-          Created temperature control visualizations showing how the home adapts to external and internal conditions.
-          </p>
+           <h2>What This Photograph Represents</h2>
+            This headshot represents the professional identity I continue to build someone who is dedicated,
+             forward-thinking, and committed to continuous improvement.
+              It captures the qualities I bring to every project and environment: 
+              steadiness, clarity, and a drive to grow both personally and professionally.
+          </p> 
         </article>
       </main>
 

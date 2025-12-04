@@ -1,6 +1,6 @@
 //import React from 'react';
 import { Link } from "react-router-dom";
-import puma_video from'../assets/puma_video.mp4';
+import bash from'../assets/Bash.jpg';
 import './PumaPage.css';
 
 
@@ -10,13 +10,7 @@ return (
 <div className="puma-page">
 
     <header className="puma-header">
-         <h1>Dynamic Motion Graphics Advertisement for PUMA</h1>
-        <p>
-          <strong>Software Used:</strong> Adobe After Effects, Adobe Illustrator, Adobe Photoshop
-          <br />
-          <strong>Duration:</strong> 05 seconds &nbsp; | &nbsp;
-          <strong>Project Type:</strong> Motion Design / Brand Advertisement
-        </p> 
+         <h1>Aesthetic shot</h1>
       </header>
 
       
@@ -24,61 +18,77 @@ return (
 <section className="hero">
 
         <div className="media-wrap">  
-          {/*video file path or poster */}
-          <video className="puma-video" controls poster="/poster.jpg">
-          <source src={puma_video} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
+          <img src={bash} alt="Bash"/>
 
         </div>
       </section>
 
       <main className="container">
         <article className="content">
-          <h2>Overview</h2>
+          <h2>Photograph Description</h2>
           <p>
-            This project involved the conception, design, and execution of a dynamic motion graphics
-            advertisement for <strong>PUMA</strong>, a globally recognized sportswear and lifestyle
-            brand. The goal was to create a visually compelling and high-energy motion piece that
-            encapsulated PUMA’s brand ethos—performance, innovation, and youthful energy—while
-            showcasing my skills in motion design, animation, typography, and visual storytelling
-            using Adobe After Effects.
+            This photograph was captured using a Samsung Galaxy S22, a device
+            known for its sharp detail and excellent dynamic range, which allowed 
+            me to beautifully capture the calm and reflective atmosphere of the moment.
+            I chose a longer focal length to create a soft, dreamy look—compressing the
+           background slightly while keeping the composition balanced with both the environment and the subject in harmony.
+
+           Because the lighting was natural and gentle, I kept the aperture wide to let more 
+           light into the camera, ensuring the scene remained bright and clear without losing its softness. 
+           Using a handheld shot, I selected a shutter speed fast enough to avoid motion blur while still 
+           maintaining a natural flow of light. The low ISO helped keep the image smooth and noise-free,
+            preserving the peaceful mood of the scene.
           </p>
 
-          <h2>Concept Development</h2>
-          <p>
-            At the heart of this project was the idea of movement—not just physical motion, but the
-            sense of constant progress, energy, and transformation that PUMA represents. I began by
-            studying PUMA’s existing advertising language, analyzing how the brand conveys its
-            message across visual platforms. PUMA’s style is bold, confident, and athletic, often
-            characterized by sharp typography, contrasting colors, and kinetic compositions.
-          </p>
-          <p>
-            To align with that aesthetic, I crafted a creative concept built around the tagline
-            <em> “Forever Faster.” </em> The motion piece aimed to evoke speed, determination, and
-            momentum—values that resonate deeply with the brand’s identity. Every animation, color
-            transition, and visual element was designed to reinforce these qualities and build an
-            immersive, energetic viewing experience.
-          </p>
 
-          <h2>Design and Pre-Production</h2>
+          <h2>Editing Specifications</h2>
           <p>
-            Before beginning animation, I focused heavily on storyboarding and style frames. Using
-            Adobe Illustrator and Photoshop, I developed a series of static frames to establish the
-            visual direction, color scheme, and typographic style. The color palette drew
-            inspiration from PUMA’s signature red and black, complemented by clean whites and subtle
-            gradients to create contrast and visual punch.
+           The image was later refined in Affinity Photo, where I focused on enhancing the dreamy,
+           calm quality of the photograph.
+          </p>
+          <ul style={{ lineHeight: "1.8" }}>
+        <li>
+          Increased exposure slightly to brighten the subject and give life to the softer areas of the sky and water.
+        </li>
+
+        <li>
+          Enhanced contrast to add depth and make the figure stand out gently against the natural surroundings.
+        </li>
+
+        <li>
+          Boosted saturation/vibrance to bring out the subtle greens, blues, and warm tones present in the environment.
+        </li>
+
+        <li>
+          Added a soft vignette to draw attention toward the center and create a quiet sense of focus.
+        </li>
+        <li>
+          Applied a gentle Gaussian Blur / lens blur to the background to heighten the serene, shallow-depth-of-field effect.
+        </li>
+        <li>
+          Applied a gentle Gaussian Blur / lens blur to the background to heighten the serene, shallow-depth-of-field effect.
+        </li>
+      </ul>
+
+          <h2>What the Picture Depicts</h2>
+          <p>
+            This photograph captures a calm, reflective moment in nature—an image that symbolizes balance,
+             self-expression, and the quiet confidence that guides my creative journey. 
+             Standing on a bridge overlooking flowing water and open skies, 
+             I am surrounded by a peaceful landscape that encourages clarity, stillness, and imagination.
           </p>
           <p>
-            The typography played a central role in the design. I chose a bold sans-serif typeface
-            that reflected strength and motion, using dynamic compositions to make the text feel
-            alive. Each word was treated as a visual element, designed to move and react to the
-            rhythm of the piece rather than simply appear on screen.
+            The soft yet bright lighting mirrors my personal philosophy: simplicity can be powerful,
+             and the smallest details often tell the most meaningful stories. 
+             Just like in my drawings and designs, I try to capture authenticity, 
+             mood, and atmosphere in everything I create.
           </p>
           <p>
-            I also designed supporting graphic elements such as streaks of motion lines, abstract
-            shapes, and subtle textures that added depth and speed to the visuals. These were used
-            strategically to guide the viewer’s eye and emphasize key moments of motion.
+            This picture is more than a visually appealing shot; it is a reflection
+             of who I am as both an artist and a person. Calm, observant, and inspired by 
+             the world around me, I aim to transform quiet moments into visual expression. 
+             This image represents the mindset I bring to every creative project intentional,
+              expressive, and deeply connected to the beauty found in everyday scenes.
           </p>
         </article>
       </main>

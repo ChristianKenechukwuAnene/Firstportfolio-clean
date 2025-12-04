@@ -1,6 +1,6 @@
-import lasta from'../assets/Lasta.jpg';
-import smart from'../assets/Smart.png';
-import puma1 from'../assets/Puma.png';
+import bash from'../assets/Bash.jpg';
+import chris_1 from'../assets/Chris_1.jpg';
+import pash from'../assets/Pash.jpg';
 import Photo1 from'../assets/Photo.jpg';
 import { Link } from "react-router-dom";
 import './Projects.css'; // Import the CSS file
@@ -34,21 +34,18 @@ function Projects(){
       <section className="projects-intro">
         <div className="intro-img">
           <img
-            src={smart} alt="smart"/>
+            src={chris_1} alt="chris_1"/>
         </div>
 
         <div className="intro-text">
-          <h2>Smart House Project</h2>
+          <h2>Professional Headshot</h2>
         
           <p>
-          he 3D Automated Smart House Project was my final-year academic project that showcased a futuristic, 
-          fully automated home of the 21st century. Using Maya, I created a detailed 3D visualization of a smart
-          house equipped with advanced technologies for automation and convenience.
-          The project involved extensive research into smart home systems and their integration into modern 
-         living spaces. I designed and animated features such as automated lighting, temperature control,
-         and voice-activated systems, all aimed at illustrating a seamless blend of technology and functionality.
-         This project not only demonstrated my technical skills in 3D modeling and animation but also highlighted 
-         my ability to conceptualize and execute innovative ideas, merging creativity with real-world applications.
+          This professional headshot reflects the mindset and values I bring to my work confidence, 
+          discipline, and a commitment to excellence. Captured in a clean, formal style, 
+          the image presents a composed and thoughtful expression, mirroring the way I approach
+           problem-solving and professional growth. Wearing a tailored suit and maintaining an assured posture,
+            I aim to communicate reliability, focus, and readiness for responsibility.
           </p>
           <Link to="/smart"> Know More </Link>
         </div>
@@ -62,19 +59,22 @@ function Projects(){
       {/* Service 1 */}
       <section className="service">
         <div className="service-text">
-          <h2>PUMA Project</h2>
+          <h2>Aesthetic shot</h2>
           <p>
-            For a class project, I designed a dynamic motion graphics advertisement
-            for Puma using Adobe After Effects. The spot featured animated text,
-           smooth transitions, and synchronized motion elements to create high-energy
-           visuals that embodied the brand's identity. This project demonstrated my 
-          ability to create professional-grade motion design for major brands.
+            This photograph was captured using a Samsung Galaxy S22, a device known for its sharp detail and excellent dynamic range, 
+            which allowed me to beautifully capture the calm and reflective atmosphere of the moment. 
+            I chose a longer focal length to create a soft, dreamy look—compressing the background slightly
+            while keeping the composition balanced with both the environment and the subject in harmony.
+             Because the lighting was natural and gentle, I kept the aperture wide to let more light into the camera,
+              ensuring the scene remained bright and clear without losing its softness. Using a handheld shot, 
+              I selected a shutter speed fast enough to avoid motion blur while still maintaining a natural flow of light.
+               The low ISO helped keep the image smooth and noise-free, preserving the peaceful mood of the scene.
           </p>
           <Link to="/puma">Know More </Link>
           
         </div>
         <div className="service-img">
-          <img src={puma1} alt="puma1"/>
+          <img src={bash} alt="Bash"/>
         </div>
       </section>
       {/** The reverse class likely flips the layout (image on left, text on right) for a staggered visual pattern.
@@ -86,17 +86,19 @@ function Projects(){
       <section className="service reverse">
         <div className="service-img">
           <img
-            src={lasta}alt="lasta"/>
+            src={pash}alt="Pash"/>
         </div>
         <div className="service-text">
-          <h2>LASTA VR Project</h2>
+          <h2>My Passion</h2>
           <p>
-            "Collaborated on an innovation VR project 'LASTA Young Creator Exhibition,' 
-            where we brought images artistic paintings to life through immersive visuals 
-            and substle animations. This project, showcased at Siamsa. Pushed
-             the boundaries of creativity and technical skill. offering a unique experience for viewers.
-              Through teamwork and artistic vision. we creafted an engaging and interactive 
-              environment that highlighted the intersection of art and technology."
+            This photograph was captured using a Samsung Galaxy S22, a device known for its sharp
+             detail and excellent dynamic range, which allowed me to reveal the calm and reflective atmosphere of the moment. 
+             I chose a longer focal length to achieve a soft, dreamy look—subtly compressing the background while keeping the
+              composition balanced between the subject and the surrounding landscape. Because the lighting was natural and gentle, 
+              I used a wide aperture to let in more light, maintaining brightness without losing softness.
+               Since the image was taken handheld, I selected a fast enough shutter speed to avoid motion blur 
+               while preserving a natural flow of light. A low ISO helped keep the image smooth, clear,
+                and noise-free, staying true to the peaceful mood of the scene.
           </p>
            <Link to="/Lasta">Know More</Link>
         </div>

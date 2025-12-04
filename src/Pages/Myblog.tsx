@@ -37,18 +37,21 @@ function Myblog(){
               <Link> – uses React Router to navigate to the full article page (in this case /blog1). */}
   
           <div className="blog-content">
-            <h2>Technical Specifications</h2>
+            <h2>Welcome to my videography project blog!</h2>
             <p>
-            For the production of our video advertisement, 
-            we used two iPhone 16 Pro devices, which allowed us to. 
-            capture high-quality footage with improved low-light performance and cinematic stabilization. 
-            To achieve smooth movement and dynamic angles, it was difficult because we dont actually 
-            have gamble but just holding still, but we pull through and maintain
-            stability for key classroom and close-up shots.
+            This project explores the creative and technical process behind producing 
+            a short advertisement centered around the transformative power of morning coffee.
+            Working in a team of five, I contributed as a videographer and part of the video direction crew,
+            helping to shape the visual storytelling and bring our concept to life.
                 
-            Editing was completed using Adobe Premiere Pro, where we handled color grading, sound mixing, and
-            transitions. Additional text effects and motion graphics were added using After Effects to enhance the final
-            visual appeal of the advertisement.
+            Our advert follows the story of a boarding-school student struggling to stay awake and focused during class. 
+            But everything changes after he takes his first sip of morning coffee—his mood brightens, his energy lifts,
+            and his entire day transforms.
+
+            In this blog, you’ll find insights into our filming process, equipment used 
+            (including two iPhone 16 Pros), and the creative decisions that shaped the final advert. 
+            You’ll also discover the challenges we faced, the teamwork that made it possible,
+             and my personal reflections on what I learned throughout the project.
             </p>
             <a><Link to="/blog1">Read More</Link></a>
           </div>
