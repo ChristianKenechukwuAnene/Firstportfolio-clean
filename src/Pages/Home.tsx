@@ -5,7 +5,7 @@
 
 
 import keecee from '../assets/Keecee.png';                                    
-import chris_1 from '../assets/Chris_1.png';
+import chris from '../assets/Chris.png';
 import lasta from'../assets/LASTA.jpg';
 import smart_2 from'../assets/Smart.png';
 import puma from'../assets/Puma.png';
@@ -43,7 +43,7 @@ function Home() {
           </div>
         </div>
         <div className="chris_1">
-          <img src={chris_1} alt="chris_1" />
+          <img src={chris} alt="chris_1" />
         </div>
       </section>
 
